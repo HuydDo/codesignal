@@ -2,10 +2,12 @@ function firstDuplicate(a) {
   for (let i = 0; i < a.length; i++){
       if(a[Math.abs(a[i]) - 1] < 0) 
       {
-         console.log(Math.abs(a[i]))
+         
+         console.log('Math.abs(a[i]):'+Math.abs(a[i]))
           return Math.abs(a[i])
       }
       a[Math.abs(a[i])-1] = -a[Math.abs(a[i]) - 1]
+      console.log( a[Math.abs(a[i])-1] )
   }
   return -1
 }
