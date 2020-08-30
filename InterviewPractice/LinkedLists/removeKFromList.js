@@ -33,3 +33,6 @@ function removeKFromListRecursion(l, k) {
   }
 }
 
+let l = [3, 1, 2, 3, 4, 5]
+let k = 3
+console.log(removeKFromList(l,k))
