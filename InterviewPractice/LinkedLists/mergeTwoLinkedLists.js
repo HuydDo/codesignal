@@ -4,9 +4,6 @@
 //   this.next = null;
 // }
 //
-function mergeTwoLinkedLists(l1, l2) {
-
-}
 
 function mergeTwoLinkedLists(l1, l2) {
 
